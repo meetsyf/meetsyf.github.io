@@ -263,7 +263,7 @@ ga('send', 'pageview');
     <a class="hide pull-left" href="/">
         <i class="icon icon-angle-left"></i>
     </a>
-    <a class="show pull-right" href="/2019/09/11/这是我的博客/">
+    <a class="show pull-right" href="/2019/09/11/this is my blog/">
         <i class="icon icon-angle-right"></i>
     </a>
   </div>
@@ -405,8 +405,8 @@ const gitalk = new Gitalk({
   owner: 'sunyanfei05',
   // 在这里设置一下截取前50个字符串, 这是因为 github 对 label 的长度有了要求, 如果超过
   // 50个字符串则会报错.
-  // id: location.pathname.split('/').pop().substring(0, 49),
-  id: location.pathname,
+  id: location.pathname.split('/').pop().substring(0, 49),
+  //id: location.pathname,
   admin: ['sunyanfei05'],
   // facebook-like distraction free mode
   distractionFreeMode: false
