@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7ff8c;
+  background: #ff08ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3128,19 +3128,10 @@ body {
   background-position: 50% 50%;
   background-size: cover;
 }
-body {
-  background: url("https://source.unsplash.com/random/1600x900?soccer,football,bayern");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-}
-.content-wrap {
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
   opacity: 0.9;
-}
-.posts-expand .post-body img {
-  border: none;
-  padding: 0px;
-}
-.post-gallery .post-gallery-img img {
-  padding: 3px;
+  min-height: 500px;
 }
