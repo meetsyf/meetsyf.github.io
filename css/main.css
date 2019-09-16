@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #292a53;
+  background: #4260fc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3122,7 +3122,7 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("https://source.unsplash.com/1600x900/daily?soccer,football,nature");
+  background: url("https://source.unsplash.com/1600x900/daily?soccer,football");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -3132,6 +3132,6 @@ body {
   margin-top: 60px;
   padding: 60px 60px 60px 60px;
   background: #fff;
-  opacity: 0.9;
+  opacity: 0;
   min-height: 500px;
 }
