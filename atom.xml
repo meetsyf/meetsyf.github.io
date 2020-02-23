@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunyanfei05.github.io/"/>
-  <updated>2020-02-23T14:18:33.429Z</updated>
+  <updated>2020-02-23T14:46:21.112Z</updated>
   <id>https://sunyanfei05.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://sunyanfei05.github.io/2020/02/23/%E5%8E%86%E5%8F%B2%E4%B8%8A30%E5%A4%A7%E4%BC%A0%E5%A5%87%E8%BF%9B%E7%90%83/"/>
     <id>https://sunyanfei05.github.io/2020/02/23/历史上30大传奇进球/</id>
     <published>2020-02-23T13:58:42.000Z</published>
-    <updated>2020-02-23T14:18:33.429Z</updated>
+    <updated>2020-02-23T14:46:21.112Z</updated>
     
-    <content type="html"><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="////player.bilibili.com/player.html?aid=86366561&cid=147603491&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div><iframe src="//player.bilibili.com/player.html?aid=86366561&cid=147603491&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"position: relative; width: 100%; height: 0; padding-bottom: 75%;"</span>&gt;</span><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"//player.bilibili.com/player.html?aid=86366561&amp;cid=147603491&amp;page=1"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>=<span class="string">"true"</span> <span class="attr">style</span>=<span class="string">"position: absolute; width: 100%; height: 100%; left: 0; top: 0;"</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>这就是足球。</p><iframe src="//player.bilibili.com/player.html?aid=86366561&cid=147603491&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;&lt;iframe src=&quot;////player.bilibili.com/player.html?aid=86366561&amp;
+        &lt;p&gt;这就是足球。&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=86366561&amp;cid=147603491&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; f
       
     
     </summary>
