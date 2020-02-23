@@ -9,10 +9,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="/images/manifest.json">
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 
@@ -21,7 +22,7 @@
   var CONFIG = {
     hostname: new URL('https://sunyanfei05.github.io').hostname,
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '7.7.1',
     exturl: false,
     sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
@@ -139,6 +140,16 @@
     <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
@@ -193,7 +204,7 @@
               目前共计 6 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/%E5%85%B6%E4%BB%96/" style="font-size: 30px; color: #111">其他</a> <a href="/tags/%E5%8E%86%E5%8F%B2/" style="font-size: 12px; color: #ccc">历史</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 12px; color: #ccc">感想</a> <a href="/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E7%96%AB%E6%83%85/" style="font-size: 12px; color: #ccc">新冠肺炎疫情</a> <a href="/tags/%E6%9D%82%E8%B0%88/" style="font-size: 30px; color: #111">杂谈</a> <a href="/tags/%E8%B6%B3%E7%90%83/" style="font-size: 30px; color: #111">足球</a>
+              <a href="/tags/%E5%85%B6%E4%BB%96/" style="font-size: 30px; color: #111">其他</a> <a href="/tags/%E5%8E%86%E5%8F%B2/" style="font-size: 10px; color: #ccc">历史</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 10px; color: #ccc">感想</a> <a href="/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E7%96%AB%E6%83%85/" style="font-size: 10px; color: #ccc">新冠肺炎疫情</a> <a href="/tags/%E6%9D%82%E8%B0%88/" style="font-size: 30px; color: #111">杂谈</a> <a href="/tags/%E8%B6%B3%E7%90%83/" style="font-size: 30px; color: #111">足球</a>
             </div>
           </div>
         
@@ -277,11 +288,20 @@
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
+          
         <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:meetsyf@gmail.com" title="邮箱 → mailto:meetsyf@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>邮箱</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/sunyanfei05" title="微博 → https:&#x2F;&#x2F;weibo.com&#x2F;sunyanfei05" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>微博</a>
+      </span>
+  </div>
 
 
 
@@ -301,17 +321,17 @@
 
 <div class="copyright">
   
-  &copy; 
+  &copy; 2019 – 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-futbol-o"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Sun Yanfei</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.1
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.1
   </div>
 
         
@@ -337,7 +357,7 @@
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
